@@ -56,7 +56,7 @@
     height: 500px;
     width: 385px;
     display: block;
-    border-radius: 5px;
+    border-radius: 10px;
     background: #f2f2f2;
     position: fixed;
     right: 20px;
@@ -94,7 +94,7 @@
   .header-chibbi p {
     margin: 0;
     padding: 0px 10px 4px 10px;
-    margin-top: 14px;
+    margin-top: 10px;
     font-size: 15px;
   }
   /* .message{
@@ -143,7 +143,7 @@
   
   .card-chibbi {
     display: flex;
-    padding: 22px;
+    padding: 18px;
     background: #fff;
     margin-top: 15px;
     border-radius: 5px;
