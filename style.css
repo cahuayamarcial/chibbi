@@ -419,8 +419,8 @@
 @media (max-width: 370px)
 {
   .chat-wrapper{
-    width: 310px;
-    max-width: 310px;
+    width: 330px;
+    max-width: 333px;
   }
 }
 
