@@ -125,8 +125,10 @@
   .header-chibbi h5{
     margin: 0;
     position: relative;
-    left: 85px;
+    left: 73px;
     font-size: 20px;
+    color: #f9fafc;
+    font-weight: 700;
   }
   
   .online-chibbi{
@@ -134,8 +136,8 @@
     height: 10px;
     background: #27ff00;
     position: absolute;
-    left: 66px;
-    top: 7px;
+    left: 69px;
+    top: 9px;
     border-radius: 10px
   }
   
