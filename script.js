@@ -105,6 +105,12 @@ setTimeout(function() {
 }
 
 
+var scale = 'scale(1)';
+document.body.style.webkitTransform =       // Chrome, Opera, Safari
+document.body.style.msTransform =          // IE 9
+document.body.style.transform = scale;     // General
+
+
 // var app = new Vue({
 //     el: '#chibbi',
 //     name: 'App',
