@@ -416,15 +416,13 @@
   }
 }
 
-
-@media (max-width: 350px)
+@media (max-width: 370px)
 {
   .chat-wrapper{
     width: 310px;
     max-width: 310px;
   }
 }
-
 
 @media (max-width: 300px){
   .chat-wrapper {
