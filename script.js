@@ -1,1 +1,127 @@
-var _0x4e17=['value','</span>','preventDefault','click','#sectionList','https://web.whatsapp.com/send/?phone=','scrollHeight','<svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20width=\x2216\x22\x20height=\x2215\x22\x20id=\x22msg-dblcheck\x22\x20x=\x222047\x22\x20y=\x222061\x22><path\x20d=\x22M15.01\x203.316l-.478-.372a.365.365\x200\x200\x200-.51.063L8.666\x209.88a.32.32\x200\x200\x201-.484.032l-.358-.325a.32.32\x200\x200\x200-.484.032l-.378.48a.418.418\x200\x200\x200\x20.036.54l1.32\x201.267a.32.32\x200\x200\x200\x20.484-.034l6.272-8.048a.366.366\x200\x200\x200-.064-.512zm-4.1\x200l-.478-.372a.365.365\x200\x200\x200-.51.063L4.566\x209.88a.32.32\x200\x200\x201-.484.032L1.892\x207.77a.366.366\x200\x200\x200-.516.005l-.423.433a.364.364\x200\x200\x200\x20.006.514l3.255\x203.185a.32.32\x200\x200\x200\x20.484-.033l6.272-8.048a.365.365\x200\x200\x200-.063-.51z\x22\x20fill=\x22#92a58c\x22/></svg>','<span\x20class=\x22metadata\x22>','createElement','<span\x20class=\x22tick\x20tick-animation\x22>','querySelectorAll','#sectionWhatsapp','&text=','add','input','.chat-wrapper','active','https://api.whatsapp.com/send/?phone=','style','#returnMenu','removeAttr','length','.conversation-compose','<svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20width=\x2216\x22\x20height=\x2215\x22\x20id=\x22msg-dblcheck-ack\x22\x20x=\x222063\x22\x20y=\x222076\x22><path\x20d=\x22M15.01\x203.316l-.478-.372a.365.365\x200\x200\x200-.51.063L8.666\x209.88a.32.32\x200\x200\x201-.484.032l-.358-.325a.32.32\x200\x200\x200-.484.032l-.378.48a.418.418\x200\x200\x200\x20.036.54l1.32\x201.267a.32.32\x200\x200\x200\x20.484-.034l6.272-8.048a.366.366\x200\x200\x200-.064-.512zm-4.1\x200l-.478-.372a.365.365\x200\x200\x200-.51.063L4.566\x209.88a.32.32\x200\x200\x201-.484.032L1.892\x207.77a.366.366\x200\x200\x200-.516.005l-.423.433a.364.364\x200\x200\x200\x20.006.514l3.255\x203.185a.32.32\x200\x200\x200\x20.484-.033l6.272-8.048a.365.365\x200\x200\x200-.063-.51z\x22\x20fill=\x22#4fc3f7\x22/></svg>','format','remove','.chat-launcher','.tick','is-open','floor','#random','h:mm','h:mm\x20A','tick-animation','sent','scrollTop','classList','.conversation-container','div','#firstMessage','open','hide','userAgent','Hola,\x20¿te\x20puedo\x20ayudar?\x20😃','innerHTML','.status-bar\x20.time','querySelector','test','toggleClass','random','show'];(function(_0x2a099f,_0x4e17d7){var _0x3ce137=function(_0x275565){while(--_0x275565){_0x2a099f['push'](_0x2a099f['shift']());}};_0x3ce137(++_0x4e17d7);}(_0x4e17,0x114));var _0x3ce1=function(_0x2a099f,_0x4e17d7){_0x2a099f=_0x2a099f-0x0;var _0x3ce137=_0x4e17[_0x2a099f];return _0x3ce137;};$(function(){$('.chat-launcher')['on'](_0x3ce1('0x27'),function(){$(_0x3ce1('0xb'))[_0x3ce1('0x21')](_0x3ce1('0x1')),$(_0x3ce1('0x0'))['toggleClass'](_0x3ce1('0xd')),$(_0x3ce1('0x0'))[_0x3ce1('0x5')](_0x3ce1('0x3'));});}),$('#returnMenu')[_0x3ce1('0x27')](function(_0x46ca52){$(_0x3ce1('0x30'))['hide'](),$(_0x3ce1('0x28'))[_0x3ce1('0x23')](),$(_0x3ce1('0x18'))[_0x3ce1('0x23')](),$(_0x3ce1('0x4'))[_0x3ce1('0x1a')]();}),$('#whatsapp')[_0x3ce1('0x27')](function(_0x5debbb){$('#sectionWhatsapp')[_0x3ce1('0x23')](),$(_0x3ce1('0x28'))[_0x3ce1('0x1a')](),$('#firstMessage')['hide'](),$(_0x3ce1('0x4'))[_0x3ce1('0x23')]();});var msg=['Hola,\x20¿te\x20puedo\x20ayudar?',_0x3ce1('0x1c')],random=document[_0x3ce1('0x1f')](_0x3ce1('0xf'));random[_0x3ce1('0x1d')]=msg[Math[_0x3ce1('0xe')](Math[_0x3ce1('0x22')]()*msg['length'])];var deviceTime=document['querySelector'](_0x3ce1('0x1e')),messageTime=document[_0x3ce1('0x2f')]('.message-chibbi\x20.time');deviceTime[_0x3ce1('0x1d')]=moment()[_0x3ce1('0x9')](_0x3ce1('0x10')),setInterval(function(){deviceTime[_0x3ce1('0x1d')]=moment()[_0x3ce1('0x9')](_0x3ce1('0x10'));},0x3e8);for(var i=0x0;i<messageTime[_0x3ce1('0x6')];i++){messageTime[i][_0x3ce1('0x1d')]=moment()[_0x3ce1('0x9')](_0x3ce1('0x11'));}var form=document[_0x3ce1('0x1f')](_0x3ce1('0x7')),conversation=document[_0x3ce1('0x1f')](_0x3ce1('0x16'));form['addEventListener']('submit',newMessage);function newMessage(_0x450879){_0x450879[_0x3ce1('0x26')]();var _0x5dec57=_0x450879['target'][_0x3ce1('0x33')];let _0x458afa=0xdc735d3d1;if(_0x5dec57[_0x3ce1('0x24')]){var _0x19aadd=/iPhone|iPad|iPod|Android/i[_0x3ce1('0x20')](navigator[_0x3ce1('0x1b')]);if(_0x19aadd){var _0x48eee2=_0x3ce1('0x2')+_0x458afa+'&text='+_0x5dec57['value'];window['open'](_0x48eee2);}else{var _0x48eee2=_0x3ce1('0x29')+_0x458afa+_0x3ce1('0x31')+_0x5dec57[_0x3ce1('0x24')];window[_0x3ce1('0x19')](_0x48eee2);}}_0x5dec57['value']='',conversation[_0x3ce1('0x14')]=conversation[_0x3ce1('0x2a')];}function buildMessage(_0x11ca8a){var _0x41d086=document[_0x3ce1('0x2d')](_0x3ce1('0x17'));return _0x41d086[_0x3ce1('0x15')][_0x3ce1('0x32')]('message-chibbi',_0x3ce1('0x13')),_0x41d086[_0x3ce1('0x1d')]=_0x11ca8a+_0x3ce1('0x2c')+'<span\x20class=\x22time\x22>'+moment()[_0x3ce1('0x9')](_0x3ce1('0x11'))+'</span>'+_0x3ce1('0x2e')+_0x3ce1('0x2b')+_0x3ce1('0x8')+_0x3ce1('0x25')+_0x3ce1('0x25'),_0x41d086;}function animateMessage(_0x18e747){setTimeout(function(){var _0x958260=_0x18e747[_0x3ce1('0x1f')](_0x3ce1('0xc'));_0x958260['classList'][_0x3ce1('0xa')](_0x3ce1('0x12'));},0x1f4);}
+$(function () {
+  $('.chat-launcher').on('click', function () {
+      $('.chat-launcher').toggleClass('active');
+      $('.chat-wrapper').toggleClass('is-open');
+      $('.chat-wrapper').removeAttr('style');
+  });
+});
+
+
+$("#returnMenu").click(function(e) {
+$("#sectionWhatsapp").hide();
+$("#sectionList").show();
+$("#firstMessage").show();
+$("#returnMenu").hide();
+});
+
+$("#whatsapp").click(function(e) {
+$("#sectionWhatsapp").show();
+$("#sectionList").hide();
+$("#firstMessage").hide();
+$("#returnMenu").show();
+});
+
+
+var msg = [
+'Hola, ¿te puedo ayudar?',
+'Hola, ¿te puedo ayudar? 😃',
+];
+
+var random = document.querySelector('#random');
+
+random.innerHTML = msg[Math.floor(Math.random() * msg.length)];
+
+/* Time */
+
+var deviceTime = document.querySelector('.status-bar .time');
+var messageTime = document.querySelectorAll('.message-chibbi .time');
+
+deviceTime.innerHTML = moment().format('h:mm');
+
+setInterval(function() {
+deviceTime.innerHTML = moment().format('h:mm');
+}, 1000);
+
+for (var i = 0; i < messageTime.length; i++) {
+messageTime[i].innerHTML = moment().format('h:mm A');
+}
+
+/* Message */
+
+var form = document.querySelector('.conversation-compose');
+var conversation = document.querySelector('.conversation-container');
+
+form.addEventListener('submit', newMessage);
+
+function newMessage(e) {
+e.preventDefault();
+
+var input = e.target.input;
+let num = 59176768465
+if (input.value) {
+  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  if (isMobile) {
+    var sendWhatsapp = `https://api.whatsapp.com/send/?phone=${num}&text=${input.value}`
+    window.open(sendWhatsapp)
+  } else {
+    var sendWhatsapp = `https://web.whatsapp.com/send/?phone=${num}&text=${input.value}`
+    window.open(sendWhatsapp)
+  }
+  
+}
+// if (input.value) {
+// 	var message = buildMessage(input.value);
+// 	conversation.appendChild(message);
+// 	animateMessage(message);
+// }
+
+input.value = '';
+conversation.scrollTop = conversation.scrollHeight;
+
+}
+
+function buildMessage(text) {
+var element = document.createElement('div');
+
+element.classList.add('message-chibbi', 'sent');
+
+element.innerHTML = text +
+  '<span class="metadata">' +
+    '<span class="time">' + moment().format('h:mm A') + '</span>' +
+    '<span class="tick tick-animation">' +
+      '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" id="msg-dblcheck" x="2047" y="2061"><path d="M15.01 3.316l-.478-.372a.365.365 0 0 0-.51.063L8.666 9.88a.32.32 0 0 1-.484.032l-.358-.325a.32.32 0 0 0-.484.032l-.378.48a.418.418 0 0 0 .036.54l1.32 1.267a.32.32 0 0 0 .484-.034l6.272-8.048a.366.366 0 0 0-.064-.512zm-4.1 0l-.478-.372a.365.365 0 0 0-.51.063L4.566 9.88a.32.32 0 0 1-.484.032L1.892 7.77a.366.366 0 0 0-.516.005l-.423.433a.364.364 0 0 0 .006.514l3.255 3.185a.32.32 0 0 0 .484-.033l6.272-8.048a.365.365 0 0 0-.063-.51z" fill="#92a58c"/></svg>' +
+      '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" id="msg-dblcheck-ack" x="2063" y="2076"><path d="M15.01 3.316l-.478-.372a.365.365 0 0 0-.51.063L8.666 9.88a.32.32 0 0 1-.484.032l-.358-.325a.32.32 0 0 0-.484.032l-.378.48a.418.418 0 0 0 .036.54l1.32 1.267a.32.32 0 0 0 .484-.034l6.272-8.048a.366.366 0 0 0-.064-.512zm-4.1 0l-.478-.372a.365.365 0 0 0-.51.063L4.566 9.88a.32.32 0 0 1-.484.032L1.892 7.77a.366.366 0 0 0-.516.005l-.423.433a.364.364 0 0 0 .006.514l3.255 3.185a.32.32 0 0 0 .484-.033l6.272-8.048a.365.365 0 0 0-.063-.51z" fill="#4fc3f7"/></svg>' +
+    '</span>' +
+  '</span>';
+
+return element;
+}
+
+function animateMessage(message) {
+setTimeout(function() {
+  var tick = message.querySelector('.tick');
+  tick.classList.remove('tick-animation');
+}, 500);
+}
+
+
+// var app = new Vue({
+//     el: '#chibbi',
+//     name: 'App',
+//     data() {
+//       return {
+//         // open: false
+//       }
+//     },
+//     // computed: {
+//     //   playerWidth() {
+//     //     return {
+//     //       width: `calc(var(--card-width) / ${this.players}`
+//     //     }
+//     //   }
+//     // },
+//     mounted() {
+//     },
+//     methods: {
+//     }
+// })
