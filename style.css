@@ -53,8 +53,10 @@
   }
   
   .chat-wrapper {
-    height: 500px;
-    width: 385px;
+    height: 485;
+    width: 365px;
+    max-width: 365px;
+    min-width: 315px;
     display: block;
     border-radius: 10px;
     background: #f2f2f2;
