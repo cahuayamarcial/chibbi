@@ -313,6 +313,7 @@
   margin: 0;
   outline: none;
   min-width: 50px;
+  border-radius: 0px;
 }
 
 .conversation-compose div, .conversation-compose input {
@@ -405,4 +406,13 @@
 .metadata .tick-animation svg:last-child {
   -webkit-transform: perspective(800px) rotateY(-179.9deg);
           transform: perspective(800px) rotateY(-179.9deg);
+}
+
+
+@media only screen and (min-width: 600px) {
+  .chat-wrapper{
+    width: 340px;
+    max-width: 340px;
+  }
+
 }
