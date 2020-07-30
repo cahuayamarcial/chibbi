@@ -8,19 +8,26 @@ $(function () {
 
 
 $("#returnMenu").click(function(e) {
-$("#sectionWhatsapp").hide();
-$("#sectionList").show();
-$("#firstMessage").show();
-$("#returnMenu").hide();
+  $("#sectionWhatsapp").hide();
+  $("#sectionFaq").hide();
+  $("#sectionList").show();
+  $("#firstMessage").show();
+  $("#returnMenu").hide();
 });
 
 $("#whatsapp").click(function(e) {
-$("#sectionWhatsapp").show();
-$("#sectionList").hide();
-$("#firstMessage").hide();
-$("#returnMenu").show();
+  $("#sectionWhatsapp").show();
+  $("#sectionList").hide();
+  $("#firstMessage").hide();
+  $("#returnMenu").show();
 });
 
+$("#faqChibbi").click(function(e) {
+  $("#sectionFaq").show();
+  $("#sectionList").hide();
+  $("#firstMessage").hide();
+  $("#returnMenu").show();
+})
 
 var msg = [
 'Hola, ¿te puedo ayudar?',

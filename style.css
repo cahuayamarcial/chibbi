@@ -430,3 +430,26 @@
     max-width: 280px;
   }
 }
+
+
+
+.faq-cont {
+  background: #fff;
+  padding: 13px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 40px 0px;
+  border-radius: 5px;
+}
+
+.faq-cont h5{
+  margin: 0;
+  font-size: 14px;
+  color: #4f26d1;
+  font-weight: 600;
+}
+
+.faq-cont p{
+  margin: 0;
+  font-size: 13px;
+  color: #717171;
+  margin-top: 9px;
+}
