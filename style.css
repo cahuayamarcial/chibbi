@@ -64,7 +64,7 @@
     right: 20px;
     bottom: 110px;
     z-index: 999999;
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06), 0 2px 22px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16), 0 2px 22px rgba(0, 0, 0, 0.16);
     -webkit-transition: transform 400ms ease;
     transition: transform 400ms ease;
     -webkit-transform: translateY(130%);
@@ -188,7 +188,7 @@
   }
 
   #returnMenu img{
-    width: 11px;
+    width: 15px;
   }
 
   #returnMenu{
@@ -196,7 +196,7 @@
   }
 
 .conversation {
-    height: calc(100% - 100px);
+    height: calc(100% - 98px);
     position: relative;
     background: #efe7dd url(https://cloud.githubusercontent.com/assets/398893/15136779/4e765036-1639-11e6-9201-67e728e86f39.jpg) repeat;
     background-size: 100%;
