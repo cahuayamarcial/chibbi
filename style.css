@@ -415,3 +415,12 @@
     max-width: 340px;
   }
 }
+
+
+@media (max-width: 350px)
+{
+  .chat-wrapper{
+    width: 310px;
+    max-width: 310px;
+  }
+}
