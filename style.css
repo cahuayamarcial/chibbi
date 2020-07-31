@@ -450,14 +450,14 @@
 .faq-cont p{
   margin: 0;
   font-size: 13px;
-  color: #4f26d1;
+  color: #717171;
   margin-top: 6px;
 }
 
 .chat-launcher p {
   position: relative;
   bottom: 28px;
-  color: #4e4e4e;
+  color: #4f26d1;
   font-weight: 700;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
