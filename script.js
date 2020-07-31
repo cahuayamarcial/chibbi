@@ -64,7 +64,8 @@ function newMessage(e) {
 e.preventDefault();
 
 var input = e.target.input;
-let num = 59176768465
+let num = 00000000
+alert("Esta herramienta aún se encuentra en desarrollo.")
 if (input.value) {
   var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
   if (isMobile) {
