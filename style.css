@@ -39,7 +39,7 @@
     top: 13px;
   }
   .chat-launcher:hover {
-    background: rgb(79 38 209 / 84%);
+    background: rgb(255 104 42);
   }
   .chat-launcher.active:before {
     opacity: 0;
