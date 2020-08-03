@@ -3,10 +3,10 @@
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#B4B4EF;}
+	.st0{fill:#FF9F7D;}
 	.st1{fill:#FFFFFF;}
-	.st2{fill:#DBD9F9;}
-	.st3{fill:#4F26D1;}
+	.st2{fill:#FFBCA4;}
+	.st3{fill:#FE5008;}
 	.st4{font-family:'Avenir-Medium';}
 	.st5{font-size:260px;}
 </style>
@@ -19,7 +19,7 @@
 	<g>
 		<path class="st3" d="M256,0C128.4,0.4,20.4,94.4,2.4,220.7c-0.4,3,0.8,6,3.2,7.9s5.6,2.3,8.5,1.2s4.8-3.7,5.2-6.7
 			C36.7,98.7,147.3,9,272.5,17.6S494.9,130.5,494.9,256s-97.2,229.7-222.4,238.4C147.3,503,36.7,413.3,19.3,289
-			c-0.4-3-2.4-5.6-5.2-6.7s-6.1-0.7-8.5,1.2s-3.6,4.9-3.2,7.9c18.9,135.5,140.9,232.2,277.1,219.6S518,380.9,511.7,244.2
+			c-0.4-3-2.4-5.6-5.2-6.7s-6.1-0.7-8.5,1.2s-3.6,4.9-3.2,7.9C21.3,426.9,143.3,523.6,279.5,511S518,380.9,511.7,244.2
 			C505.4,107.6,392.8,0,256,0z"/>
 		<circle class="st3" cx="8.6" cy="256" r="8.5"/>
 	</g>
