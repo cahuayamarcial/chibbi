@@ -9,7 +9,7 @@
     width: 60px;
     height: 60px;
     z-index: 9999;
-    background: #4f26d1;
+    background: #fe5004;
     color: white;
     border-radius: 50%;
     cursor: pointer;
@@ -88,7 +88,7 @@
   }
   
   .header-chibbi{
-    background: #4f26d1;
+    background: #fe5004;
     color: #fff;
     padding: 16px;
     border-radius: 8px 8px 0px 0px;
@@ -121,7 +121,7 @@
   .img-chibbi img{
     width: 65px;
     border-radius: 65px;
-    border: 5px solid #4f26d1;
+    border: 5px solid #fe5004;
   }
   
   .header-chibbi h5{
@@ -149,7 +149,7 @@
     background: #fff;
     margin-top: 15px;
     border-radius: 5px;
-    border-top: 2px solid rgb(79 38 209);
+    border-top: 2px solid #fe5008;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: all 0.3s;
@@ -443,7 +443,7 @@
 .faq-cont h5{
   margin: 0;
   font-size: 15px;
-  color: #4f26d1;
+  color: #fe5004;
   font-weight: 800;
 }
 
@@ -457,9 +457,9 @@
 .chat-launcher p {
   position: relative;
   bottom: 28px;
-  color: #4f26d1;
+  color: #000;
   font-weight: 700;
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  /* text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
-  text-shadow: 0px 1px 8px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+  text-shadow: 0px 1px 8px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1); */
 }
