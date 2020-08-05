@@ -15,13 +15,13 @@ $(".conversation-container").on("click", "div", function(){
 
   let msgUser = $('.mgsChibi').text();
   if($(this).text() == 'La Paz'){
-    sendWhatsApp(5910000001, msgUser)
+    sendWhatsApp(59176569975, 'Mensaje enviado desde campus UNIFRANZ: '+msgUser)
   }else if($(this).text() == 'El Alto'){
-    sendWhatsApp(5910000002, msgUser)
+    sendWhatsApp(59176574941, 'Mensaje enviado desde campus UNIFRANZ: '+msgUser)
   }else if($(this).text() == 'Cochabamba'){
-    sendWhatsApp(5910000003, msgUser)
+    sendWhatsApp(59176575918, 'Mensaje enviado desde campus UNIFRANZ: '+msgUser)
   }else{
-    sendWhatsApp(5910000004, msgUser)
+    sendWhatsApp(59176214071, 'Mensaje enviado desde campus UNIFRANZ: '+msgUser)
   }
 });
 
