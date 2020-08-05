@@ -125,7 +125,7 @@ function buildMessageReceived() {
   
   element.classList.add('message-chibbi', 'received');
   
-  element.innerHTML = 'Por favor, haz clic en la sede que perteneces:' +
+  element.innerHTML = 'Por favor, haz clic a la sede que pertence:' +
     '<span class="metadata">' +
       '<span class="time">' + moment().format('h:mm A') + '</span>' +
       '<span class="tick tick-animation">' +
