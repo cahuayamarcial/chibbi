@@ -4,7 +4,47 @@ $(function () {
       $('.chat-wrapper').toggleClass('is-open');
       $('.chat-wrapper').removeAttr('style');
   });
+
+  // $('#clp').click(function(){
+//   $('#clp').on('click', function () {
+//   alert("Hola mudno");
+// });
+
+$(".conversation-container").on("click", "div", function(){
+  // alert($(this).text());
+
+  let msgUser = $('.mgsChibi').text();
+  if($(this).text() == 'La Paz'){
+    sendWhatsApp(5910000001, msgUser)
+  }else if($(this).text() == 'El Alto'){
+    sendWhatsApp(5910000002, msgUser)
+  }else if($(this).text() == 'Cochabamba'){
+    sendWhatsApp(5910000003, msgUser)
+  }else{
+    sendWhatsApp(5910000004, msgUser)
+  }
 });
+
+
+});
+
+
+
+function sendWhatsApp(num, msgUser){
+  // let num = 00000000
+  // alert("Esta herramienta aún se encuentra en desarrollo.")
+  if (msgUser) {
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+      var sendWhatsapp = `https://api.whatsapp.com/send/?phone=${num}&text=${msgUser}`
+      window.open(sendWhatsapp)
+    } else {
+      var sendWhatsapp = `https://web.whatsapp.com/send/?phone=${num}&text=${msgUser}`
+      window.open(sendWhatsapp)
+    }
+    
+  }
+}
 
 
 $("#returnMenu").click(function(e) {
@@ -64,21 +104,9 @@ function newMessage(e) {
 e.preventDefault();
 
 var input = e.target.input;
-let num = 00000000
-// alert("Esta herramienta aún se encuentra en desarrollo.")
-// if (input.value) {
-//   var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-//   if (isMobile) {
-//     var sendWhatsapp = `https://api.whatsapp.com/send/?phone=${num}&text=${input.value}`
-//     window.open(sendWhatsapp)
-//   } else {
-//     var sendWhatsapp = `https://web.whatsapp.com/send/?phone=${num}&text=${input.value}`
-//     window.open(sendWhatsapp)
-//   }
-  
-// }
+
 if (input.value) {
-	var message = buildMessage(input.value);
+	const message = buildMessage(input.value);
 	conversation.appendChild(message);
   animateMessage(message);
 
@@ -107,7 +135,7 @@ var element = document.createElement('div');
 
 element.classList.add('message-chibbi', 'sent');
 
-element.innerHTML = text +
+element.innerHTML = '<span class="mgsChibi">'+text+'</span>' +
   '<span class="metadata">' +
     '<span class="time">' + moment().format('h:mm A') + '</span>' +
     '<span class="tick tick-animation">' +
@@ -125,7 +153,7 @@ function buildMessageReceived() {
   
   element.classList.add('message-chibbi', 'received');
   
-  element.innerHTML = 'Por favor, haz clic a la sede que pertence:' +
+  element.innerHTML = 'Por favor, haz clic en la sede que <br>pertence: 👇' +
     '<span class="metadata">' +
       '<span class="time">' + moment().format('h:mm A') + '</span>' +
       '<span class="tick tick-animation">' +
@@ -153,6 +181,13 @@ setTimeout(function() {
 }, 500);
 }
 
+
+// $('#clp').click(function(){
+//   alert("Hola mudno");
+// });
+// $('#clp').live('click', function(){
+//   alert("asdsaasd");
+// });
 
 // var app = new Vue({
 //     el: '#chibbi',
