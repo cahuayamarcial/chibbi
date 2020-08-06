@@ -320,14 +320,6 @@ $(document).ready(() => {
     else if (/oki|ok|oky|okay/.test(message)) reply = "Bueno, te puedo ayudar en algo más? 😃";
     else reply = defaultMessage[Math.floor(Math.random() * intro.length)];
   
-    // if(message.includes('Hola')){
-    // 	reply = [`Hi`]
-    // 	// let finalresult = intro[Math.floor(Math.random() * intro.length)];
-    // 	// speech.text = finalresult;
-    // }
-  
-    // alert(message.includes('hola'))
-  
     return reply;
   };
   

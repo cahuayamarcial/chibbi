@@ -573,13 +573,13 @@ nav#nav-container {
 	box-sizing: border-box;
 }
 
-ul.nav {
+/* ul.nav {
 	list-style: none;
 	margin: 0;
-	padding: 0;
+	padding: 0; */
 }
 
-.nav-link {
+/* .nav-link {
 	padding: 2px 0;
 	margin: 8px 0;
 	font-size: .9rem;
@@ -591,15 +591,15 @@ ul.nav {
 	margin-right: 10px;
 	position: absolute;
 	left: 0;
-}
+} */
 
 
-a,
+/* a,
 button,
 .link,
 .nav-link {
 	cursor: pointer;
-}
+} */
 
 .btn-transparent {
 	border: 0;
