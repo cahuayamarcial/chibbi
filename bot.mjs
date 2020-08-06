@@ -1,1 +1,210 @@
-const _0x2de9=['¿Cómo?','Tom','toggleClass','Hola\x20😊','</span>','#landing','test','Es\x20bueno\x20sonreir','<br>','keyup','#message-board','click','#nav-container','How\x20can\x20I\x20make\x20it\x20better?','floor','find','Ups,\x20no\x20he\x20entendido\x20a\x20que\x20te\x20refieres.','Start\x20chat','mouseleave','getHours','val','#back-button','blur','toLowerCase','Feel\x20free\x20to\x20test\x20as\x20much\x20as\x20you\x20want','#emoi','Qué\x20ternura','slideToggle','Bien,\x20gracias\x20y\x20tu?','focus','string','removeClass','¿Disculpa?','contents','<div\x20class=\x22post\x20post-bot\x22>','length','height','replace','slideUp','I\x27m\x20sorry\x20you\x20feel\x20that\x20way','remove','append','#send','forEach','<span\x20class=\x22far\x20fa-dizzy\x20fa-2x\x22></span>','Gracias,\x20también\x20te\x20quiero','<div\x20class=\x22post\x20post-user\x22>','What\x20seems\x20to\x20be\x20the\x20problem?','#clear-history','empty','getMinutes','\x20what?','¿Podrías\x20repetirlo,\x20por\x20favor?','scrollTop','scrollHeight','trim','html','random','fa-lg','</div>','Gracias!\x20😍','#nav-icon','#message','#emoijis','submit','currentTarget','clone','Cool!\x20<span\x20class=\x22far\x20fa-grin-beam\x20fa-2x\x22></span>','Lo\x20siento,\x20no\x20logro\x20entenderte\x20😔','hide','Continue\x20chat','show','#username','#start-chat'];(function(_0x4336e5,_0x2de9a1){const _0x35dcde=function(_0x18af91){while(--_0x18af91){_0x4336e5['push'](_0x4336e5['shift']());}};_0x35dcde(++_0x2de9a1);}(_0x2de9,0x17e));const _0x35dc=function(_0x4336e5,_0x2de9a1){_0x4336e5=_0x4336e5-0x0;let _0x35dcde=_0x2de9[_0x4336e5];return _0x35dcde;};$(document)['ready'](()=>{let _0x3489e8=_0x35dc('0x3f');$('#form-start')['on'](_0x35dc('0x34'),_0x5abe8f=>{_0x5abe8f['preventDefault'](),_0x3489e8=$(_0x35dc('0x3c'))['val'](),$(_0x35dc('0x43'))[_0x35dc('0x1a')](0x12c),setTimeout(()=>{$('#start-chat')[_0x35dc('0x2c')](_0x35dc('0x3a'));},0x12c);});function _0x1e7e9d(){$(_0x35dc('0x32'))[_0x35dc('0x3')]('br')[_0x35dc('0x1c')]();let _0x1f5370=$(_0x35dc('0x32'))[_0x35dc('0x2c')]()[_0x35dc('0x2b')]();_0x1f5370=_0x1f5370[_0x35dc('0x19')](/<div>/,_0x35dc('0x46'))['replace'](/<div>/g,'')['replace'](/<\/div>/g,'<br>')['replace'](/<br>/g,'\x20')[_0x35dc('0x2b')]();if(_0x1f5370){const _0x3b4fd5=_0x35dc('0x22')+(_0x1f5370+_0x257c77())+'</span></div>';$(_0x35dc('0x48'))[_0x35dc('0x1d')](_0x3b4fd5),_0x1b1234(),_0x572c45(_0x1f5370);};$(_0x35dc('0x32'))[_0x35dc('0x25')]();};$('#message')['on'](_0x35dc('0x47'),_0xfc780=>{if(_0xfc780['which']===0xd)_0x1e7e9d();})['on'](_0x35dc('0x11'),()=>{$(_0x35dc('0x32'))['addClass']('focus');})['on'](_0x35dc('0xa'),()=>{$(_0x35dc('0x32'))[_0x35dc('0x13')](_0x35dc('0x11'));}),$(_0x35dc('0x1e'))['on']('click',_0x1e7e9d);function _0x572c45(_0x577cba){const _0x25eb54=_0x9420e5(_0x577cba);if(typeof _0x25eb54===_0x35dc('0x12'))_0x1a8c4e(_0x25eb54);else _0x25eb54[_0x35dc('0x1f')](_0x6073ec=>_0x1a8c4e(_0x6073ec));};function _0x9420e5(_0x7f83d9){const _0x3e074b=_0x7f83d9[_0x35dc('0xb')]();let _0x12b373='',_0x3a5be7=[_0x35dc('0x4'),_0x35dc('0x28'),_0x35dc('0x14'),'¿Decías?',_0x35dc('0x3e'),_0x35dc('0x38')],_0x5c49f8=['Hola!',_0x35dc('0x41')],_0x178fc1=[_0x35dc('0x30'),_0x35dc('0x21'),_0x35dc('0xe'),'😍'];if(/^hola$|^hola?a|^ola|^hey|^oli|^holas/[_0x35dc('0x44')](_0x3e074b))_0x12b373=_0x5c49f8[Math[_0x35dc('0x2')](Math[_0x35dc('0x2d')]()*_0x5c49f8[_0x35dc('0x17')])];else{if(/test/['test'](_0x3e074b))_0x12b373=['Ok',_0x35dc('0xc')];else{if(/help|sos|emergency|support/[_0x35dc('0x44')](_0x3e074b))_0x12b373=['I\x20am\x20here\x20to\x20help.',_0x35dc('0x23')];else{if(/class\=\"fa/[_0x35dc('0x44')](_0x3e074b))_0x12b373=['I\x20see\x20you\x27ve\x20found\x20the\x20smileys',_0x35dc('0x37'),'Did\x20you\x20need\x20something?'];else{if(/how|what|why/[_0x35dc('0x44')](_0x3e074b))_0x12b373=_0x7f83d9+_0x35dc('0x27');else{if(/^huh+|boring|lame|wtf|pff/['test'](_0x3e074b))_0x12b373=[_0x35dc('0x20'),_0x35dc('0x1b'),_0x35dc('0x1')];else{if(/como estas|ciao|adieu|salu/[_0x35dc('0x44')](_0x3e074b))_0x12b373=[_0x35dc('0x10')];else{if(/jeje|gg|jejeje|jajaja/['test'](_0x3e074b))_0x12b373=[_0x35dc('0x45')];else{if(/bye|ciao|adieu|salu/['test'](_0x3e074b))_0x12b373=_0x3a5be7[Math[_0x35dc('0x2')](Math[_0x35dc('0x2d')]()*_0x5c49f8[_0x35dc('0x17')])];else{if(/te amo|te quiero/[_0x35dc('0x44')](_0x3e074b))_0x12b373=_0x178fc1[Math[_0x35dc('0x2')](Math[_0x35dc('0x2d')]()*_0x5c49f8[_0x35dc('0x17')])];else{if(/oki|ok|oky|okay/[_0x35dc('0x44')](_0x3e074b))_0x12b373='Bueno,\x20te\x20puedo\x20ayudar\x20en\x20algo\x20más?\x20😃';else _0x12b373=_0x3a5be7[Math[_0x35dc('0x2')](Math[_0x35dc('0x2d')]()*_0x5c49f8['length'])];}}}}}}}}}}return _0x12b373;};function _0x1a8c4e(_0x237ff6){const _0x599c4c=_0x35dc('0x16')+(_0x237ff6+_0x257c77())+_0x35dc('0x2f'),_0x4286ca=0x1f4+Math[_0x35dc('0x2')](Math[_0x35dc('0x2d')]()*0x7d0);$(_0x35dc('0x48'))[_0x35dc('0x1d')](_0x599c4c),_0x1b1234();};function _0x257c77(){const _0x208d37=new Date(),_0x30eef4=_0x208d37[_0x35dc('0x7')]();let _0x287876=_0x208d37[_0x35dc('0x26')]();if(_0x287876<0xa)_0x287876='0'+_0x287876;const _0x51ff81='<span\x20class=\x22timestamp\x22>'+_0x30eef4+':'+_0x287876+_0x35dc('0x42');return _0x51ff81;};$(_0x35dc('0x9'))['on'](_0x35dc('0x49'),()=>{$(_0x35dc('0x43'))[_0x35dc('0x3b')]();}),$(_0x35dc('0x31'))['on'](_0x35dc('0x49'),()=>{$(_0x35dc('0x0'))['show']();}),$('#nav-container')['on'](_0x35dc('0x6'),()=>{$(_0x35dc('0x0'))[_0x35dc('0x39')]();}),$('.nav-link')['on'](_0x35dc('0x49'),()=>{$(_0x35dc('0x0'))[_0x35dc('0xf')](0xc8);}),$(_0x35dc('0x24'))['on'](_0x35dc('0x49'),()=>{$(_0x35dc('0x48'))[_0x35dc('0x25')](),$(_0x35dc('0x32'))['empty']();}),$('#sign-out')['on']('click',()=>{$(_0x35dc('0x48'))['empty'](),$(_0x35dc('0x32'))[_0x35dc('0x25')](),$(_0x35dc('0x43'))[_0x35dc('0x3b')](),$(_0x35dc('0x3c'))[_0x35dc('0x8')](''),$(_0x35dc('0x3d'))[_0x35dc('0x2c')](_0x35dc('0x5'));});function _0x1b1234(){const _0x275b79=$(_0x35dc('0x48')),_0x1d6cc2=_0x275b79[_0x35dc('0x18')](),_0x5ee451=_0x275b79[0x0][_0x35dc('0x2a')];if(_0x5ee451>_0x1d6cc2)_0x275b79[_0x35dc('0x29')](_0x5ee451);}$(_0x35dc('0xd'))['on'](_0x35dc('0x49'),()=>{$(_0x35dc('0x33'))[_0x35dc('0xf')](0x12c),$(_0x35dc('0xd'))[_0x35dc('0x40')]('fa\x20fa-grin\x20far\x20fa-chevron-down');}),$('.smiley')['on'](_0x35dc('0x49'),_0x783246=>{const _0x13d097=$(_0x783246[_0x35dc('0x35')])[_0x35dc('0x36')]()[_0x35dc('0x15')]()['addClass'](_0x35dc('0x2e'));$(_0x35dc('0x32'))[_0x35dc('0x1d')](_0x13d097),$(_0x35dc('0x32'))['select']();});});
+$(document).ready(() => {
+
+
+    /******************/
+    /*** START CHAT ***/
+    /******************/
+    
+    
+    // set visitor name
+    let $userName = "Tom";
+    
+    // start chatbox
+    $("#form-start").on("submit", (event) => {
+      event.preventDefault();
+      $userName = $("#username").val();
+      $("#landing").slideUp(300);
+      setTimeout(() => {
+        $("#start-chat").html("Continue chat")
+      }, 300);
+    });
+    
+    
+    
+    
+    /*****************/
+    /*** USER CHAT ***/
+    /*****************/
+    
+    
+    // Post a message to the board
+    function $postMessage() {
+      $("#message").find("br").remove();
+      let $message = $("#message").html().trim(); // get text from text box
+      $message = $message.replace(/<div>/, "<br>").replace(/<div>/g, "").replace(/<\/div>/g, "<br>").replace(/<br>/g, " ").trim();
+      if ($message) { // if text is not empty
+        const html = `<div class="post post-user">${$message + timeStamp()}</span></div>`; // convert post to html
+        $("#message-board").append(html); // add post to board
+        $scrollDown(); // stay at bottom of chat
+        botReply($message);
+      };
+      $("#message").empty();
+    };
+    
+    // Chat input
+    $("#message").on("keyup", (event) => {
+      if (event.which === 13) $postMessage(); // Use enter to send
+    }).on("focus", () => {
+      $("#message").addClass("focus");
+    }).on("blur", () => {
+      $("#message").removeClass("focus");
+    });
+    $("#send").on("click", $postMessage);
+    
+    
+    
+    
+    /**********************/
+    /*** AUTO REPLY BOT ***/
+    /**********************/
+    
+    
+    function botReply(userMessage) {
+      const reply = generateReply(userMessage);
+      if (typeof reply === "string") postBotReply(reply);
+      else reply.forEach((str) => postBotReply(str));
+    };
+    
+    function generateReply(userMessage) {
+      
+      const message = userMessage.toLowerCase();
+    
+      let reply = ""
+      let defaultMessage = ['Ups, no he entendido a que te refieres.', '¿Podrías repetirlo, por favor?', '¿Disculpa?', '¿Decías?', '¿Cómo?', 'Lo siento, no logro entenderte 😔'];
+    
+      // Respuestas
+      let intro = ["Hola!", "Hola 😊"];
+      let love = ["Gracias! 😍", "Gracias, también te quiero", "Qué ternura", "😍"];
+    
+    
+      // Generate some different replies
+      if (/^hola$|^hola?a|^ola|^hey|^oli|^holas/.test(message)) reply = intro[Math.floor(Math.random() * intro.length)];
+      else if (/test/.test(message)) reply = [`Ok`, `Feel free to test as much as you want`];
+      else if (/help|sos|emergency|support/.test(message)) reply = [`I am here to help.`, `What seems to be the problem?`];
+      else if (/class\=\"fa/.test(message)) reply = [`I see you've found the smileys`, `Cool! <span class="far fa-grin-beam fa-2x"></span>`, `Did you need something?`];
+      else if (/how|what|why/.test(message)) reply = userMessage + " what?";
+      else if (/^huh+|boring|lame|wtf|pff/.test(message)) reply = [`<span class="far fa-dizzy fa-2x"></span>`, `I'm sorry you feel that way`, `How can I make it better?`];
+      else if (/como estas|ciao|adieu|salu/.test(message)) reply = [`Bien, gracias y tu?`];
+      else if (/jeje|gg|jejeje|jajaja/.test(message)) reply = [`Es bueno sonreir`];
+      else if (/bye|ciao|adieu|salu/.test(message)) reply = defaultMessage[Math.floor(Math.random() * intro.length)];
+      else if (/te amo|te quiero/.test(message)) reply = love[Math.floor(Math.random() * intro.length)];
+      else if (/oki|ok|oky|okay/.test(message)) reply = "Bueno, te puedo ayudar en algo más? 😃";
+      else reply = defaultMessage[Math.floor(Math.random() * intro.length)];
+    
+      // if(message.includes('Hola')){
+      // 	reply = [`Hi`]
+      // 	// let finalresult = intro[Math.floor(Math.random() * intro.length)];
+      // 	// speech.text = finalresult;
+      // }
+    
+      // alert(message.includes('hola'))
+    
+      return reply;
+    };
+    
+    function postBotReply(reply) {
+      const html = `<div class="post post-bot">${reply + timeStamp()}</div>`;
+      const timeTyping = 500 + Math.floor(Math.random() * 2000);
+      $("#message-board").append(html);
+      $scrollDown();
+    };
+    
+    
+    
+    /******************/
+    /*** TIMESTAMPS ***/
+    /******************/
+    
+    
+    function timeStamp() {
+      const timestamp = new Date();
+      const hours = timestamp.getHours();
+      let minutes = timestamp.getMinutes();
+      if (minutes < 10) minutes = "0" + minutes;
+      const html = `<span class="timestamp">${hours}:${minutes}</span>`;
+      return html;
+    };
+    
+    
+    
+    
+    /***************/
+    /*** CHAT UI ***/
+    /***************/
+    
+    
+    // Back arrow button
+    $("#back-button").on("click", () => {
+      $("#landing").show();
+    });
+    
+    
+    // Menu - navigation
+    $("#nav-icon").on("click", () => {
+      $("#nav-container").show();
+    });
+    
+    $("#nav-container").on("mouseleave", () => {
+      $("#nav-container").hide();
+    });
+    
+    $(".nav-link").on("click", () => {
+      $("#nav-container").slideToggle(200);
+    });
+    
+    // Clear history
+    $("#clear-history").on("click", () => {
+      $("#message-board").empty();
+      $("#message").empty();
+    });
+    
+    // Sign out
+    $("#sign-out").on("click", () => {
+      $("#message-board").empty();
+      $("#message").empty();
+      $("#landing").show();
+      $("#username").val("");
+      $("#start-chat").html("Start chat");
+    });
+    
+    
+    
+    
+    /*********************/
+    /*** SCROLL TO END ***/
+    /*********************/
+    
+    
+    function $scrollDown() {
+      const $container = $("#message-board");
+      const $maxHeight = $container.height();
+      const $scrollHeight = $container[0].scrollHeight;
+      if ($scrollHeight > $maxHeight) $container.scrollTop($scrollHeight);
+    }
+    
+    
+    
+    
+    /***************/
+    /*** EMOIJIS ***/
+    /***************/
+    
+    
+    // toggle emoijis
+    $("#emoi").on("click", () => {
+      $("#emoijis").slideToggle(300);
+      $("#emoi").toggleClass("fa fa-grin far fa-chevron-down");
+    });
+    
+    // add emoiji to message
+    $(".smiley").on("click", (event) => {
+      const $smiley = $(event.currentTarget).clone().contents().addClass("fa-lg");
+      $("#message").append($smiley);
+      $("#message").select(); // ==> BUG: message field not selected after adding smiley !! 
+    });
+    
+    
+    
+    
+    
+    });
