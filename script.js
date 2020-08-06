@@ -5,6 +5,8 @@ $(function () {
       $('.chat-wrapper').removeAttr('style');
   });
 
+
+
   // $('#clp').click(function(){
 //   $('#clp').on('click', function () {
 //   alert("Hola mudno");
@@ -53,6 +55,7 @@ $("#returnMenu").click(function(e) {
   $("#sectionList").show();
   $("#firstMessage").show();
   $("#returnMenu").hide();
+  $("#sectionChibbiChat").hide();
 });
 
 $("#whatsapp").click(function(e) {
@@ -67,6 +70,14 @@ $("#faqChibbi").click(function(e) {
   $("#sectionList").hide();
   $("#firstMessage").hide();
   $("#returnMenu").show();
+})
+
+$("#chatChibbi").click(function(e) {
+  $("#sectionChibbiChat").show();
+  $("#sectionList").hide();
+  $("#firstMessage").hide();
+  $("#returnMenu").show();
+
 })
 
 var msg = [
@@ -209,3 +220,5 @@ setTimeout(function() {
 //     methods: {
 //     }
 // })
+
+
