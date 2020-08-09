@@ -879,7 +879,6 @@ form#form-start {
 
 
 #send .fa-send:before, .fa-paper-plane:before {
-  content: "";
   position: relative;
   left: -2px;
 }
