@@ -649,10 +649,10 @@ button,
   position: relative;
   /* top: 47px; */
   /* left: 19px; */
-  height: 393px;
+  height: 387px;
   width: 100%;
   display: grid;
-  grid-template-rows: 346px 1fr auto;
+  grid-template-rows: 340px 1fr auto;
 }
 
 /*** Start Chat overlay ***/
