@@ -360,11 +360,18 @@ $(document).ready(() => {
   
   
   function timeStamp() {
+    // const timestamp = new Date();
+    // const hours = timestamp.getHours();
+    // let minutes = timestamp.getMinutes();
+    // if (minutes < 10) minutes = "0" + minutes;
+    // const html = `<span class="timestamp">${hours}:${minutes}</span>`;
+    // return html;
+
     const timestamp = new Date();
     const hours = timestamp.getHours();
     let minutes = timestamp.getMinutes();
     if (minutes < 10) minutes = "0" + minutes;
-    const html = `<span class="timestamp">${hours}:${minutes}</span>`;
+    const html = ``;
     return html;
   };
   
