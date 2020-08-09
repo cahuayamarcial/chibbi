@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
   <div id="chibbi">
     <div class="chat-launcher">
       <p>Soporte</p>
@@ -22,7 +23,7 @@
         <p id="firstMessage">Hola, ¿cómo te puedo ayudar? </p>
         <p id="returnMenu" style="display: none;"> <img src="https://cahuayamarcial.github.io/chibbi/return-menu.svg" alt=""> Regresar</p>
       </div>
-      <div class="content-chibbi" id="sectionList">
+      <div class="content-chibbi" id="sectionList" style="height: 367px;overflow-y: scroll;overflow-x: hidden;">
         <div class="card-chibbi" title="Clic para ver más detalles" id="whatsapp">
           <div class="icon-one"> <img src="https://cahuayamarcial.github.io/chibbi/1.svg" alt=""> </div>
           <div class="cont">
@@ -44,6 +45,13 @@
             <p>Obtenga respuestas del campus fáciles de entender.</p>
           </div>
         </div>
+        <div class="card-chibbi" title="Clic para ver más detalles" id="faqChibbi" style="border-top: 2px solid #62a2e8;">
+          <div class="icon-one"> <img src="https://cahuayamarcial.github.io/chibbi/zoom.png" alt=""> </div>
+          <div class="cont">
+            <h5>Solicitar cuenta ilimitada de zoom (solo docentes)</h5>
+            <p>Para clase de más de 40 minutos o más de 100 participantes.</p>
+          </div>
+        </div>
       </div>
       <div class="content-chibbi conversation" id="sectionWhatsapp" style="display: none;">
         <div class="conversation-container">
@@ -53,10 +61,8 @@
           <div class="emoji"> </div>
           <input class="input-msg" name="input" placeholder="Escriba un mensaje aquí" autocomplete="off"> 
           <div class="photo"> </div>
-          <button class="send" style="    background-color: transparent;
-          border-color: transparent;
-          color: black;">
-            <div class="circle"> <i class="mdi mdi-mail-send"></i> </div>
+          <button class="send">
+            <div class="circle"> <i class="zmdi zmdi-mail-send"></i> </div>
           </button>
         </form>
       </div>
@@ -66,52 +72,54 @@
           </div>
           <div id="form" class="bg-light">
             <div id="message" placeholder="Type your message here" rows="1" contenteditable></div>
-            <div><button id="send" type="" class="btn-transparent btn-icon fas fa-paper-plane"></button></div>
+            <div><button id="send" style="    background-color: transparent;
+              border-color: transparent;outline:0;
+              color: black;" type="" class="btn-transparent btn-icon fa fa-paper-plane"></button></div>
           </div>
         </div>
       </div>
-      <div class="content-chibbi faq-chibbi" id="sectionFaq" style="display: none; overflow-y: auto;height: 378px;margin: 0px;">
+      <div class="content-chibbi faq-chibbi" id="sectionFaq" style="display: none; overflow-y: auto;height: 370px;margin: 0px;">
         <h4 style="margin: 0;color: #313131;margin-left: 15px;padding-top: 15px;">Preguntas frecuentes estudiantes</h4>
         <div class="faq-cont mt-15">
           <h5>¿Cómo hago para obtener mi usuario y contraseña?</h5>
-          <p>Encontraras tus credenciales de acceso en el Portal Web de la Universidad</p>
+          <p>Encontraras tus credenciales de acceso en el Portal Web de la Universidad.</p>
         </div>
         <div class="faq-cont mt-15">
           <h5>¿Porqué si a pesar de tener mis credenciales, no puedo ingresar?</h5>
-          <p>Solo pueden ingresar los alumnos que validaron sus materias en el Portal Web de la Universidad</p>
+          <p>Solo pueden ingresar los alumnos que validaron sus materias en el Portal Web de la Universidad.</p>
         </div>
         <div class="faq-cont mt-15">
-          <h5>¿Porque me faltan materias si están validadas y asignadas en el Portal Web de la Universidad?</h5>
+          <h5>¿Porqué me faltan materias si están validadas y asignadas en el Portal Web de la Universidad?</h5>
           <p>Los cambios realizados en el Portal Web tardan hasta 30 minutos para ser actualizados en Moodle</p>
         </div>
         <div class="faq-cont mt-15">
-          <h5>Estoy perdido en el uso de Moodle.</h5>
-          <p>Tienes tutoriales a tu disposición en la parte baja de la pagina principal del aula virtual</p>
+          <h5>Estoy perdido en el uso de Moodle</h5>
+          <p>Tienes tutoriales a tu disposición en la parte baja de la pagina principal del aula virtual.</p>
         </div>
         <div class="faq-cont mt-15">
-          <h5>Moodle app no tiene las mismas opciones que en la web?</h5>
+          <h5>Moodle app no tiene las mismas opciones que en la web</h5>
           <p>La app de Moodle está desarrollada para ser utilizada con dispositivos móviles y por lo tanto tiene funciones más básicas.</p>
         </div>
-        <h4 style="margin: 0;color: #313131;margin-left: 15px;padding-top: 0px;">Preguntas frecuentes estudiantes</h4>
+        <h4 style="margin: 0;color: #313131;margin-left: 15px;padding-top: 0px;">Preguntas frecuentes docentes</h4>
         <div class="faq-cont mt-15">
-          <h5>¿Como hago para obtener mi usuario y contraseña?</h5>
-          <p>Encontraras tus credenciales de acceso en el Portal Docente de la Universidad</p>
+          <h5>¿Cómo hago para obtener mi usuario y contraseña?</h5>
+          <p>Encontraras tus credenciales de acceso en elßßßß Portal Docente de la Universidad</p>
         </div>
         <div class="faq-cont mt-15">
-          <h5>Porque se borra mi material ya subido?</h5>
-          <p>No estas respectando el uso de la plataforma, tienes tutoriales a tu disposición en la parte baja de la pagina principal del aula virtual</p>
+          <h5>¿Porqué se borra mi material ya subido?</h5>
+          <p>No estas respetando el uso de la plataforma, tienes tutoriales a tu disposición en la parte baja de la pagina principal del aula virtual.</p>
         </div>
         <div class="faq-cont mt-15">
-          <h5>No se puede subir archivos ni pdf ni PowerPoint?</h5>
+          <h5>¿No se puede subir archivos ni pdf ni PowerPoint?</h5>
           <p>No hay restricción en formato de archivo, solo en tamaño.</p>
         </div>
         <div class="faq-cont mt-15">
-          <h5>Que tamaño máximo por archivo puedo subir y hasta cuantos megas en total?</h5>
-          <p>Es aconsejado usar desde el drive los archivos, la plataforma tiene un limite de 10mb por usuario.</p>
+          <h5>¿Qué tamaño máximo por archivo puedo subir y hasta cuantos megas en total?</h5>
+          <p>Es recomensable usar desde el drive los archivos, la plataforma tiene un limite de 10mb por usuario.</p>
         </div>
         <div class="faq-cont mt-15">
-          <h5>Puedo tener acceso al sitio mientras aplican actualizaciones ?</h5>
-          <p>No, el sitio no estará disponible en esos momentos, un aviso saldrá en el sitio.</p>
+          <h5>¿Puedo tener acceso al sitio mientras aplican actualizaciones?</h5>
+          <p>No, el sitio no estará disponible en esos momentos, saldrá un aviso en el sitio.</p>
         </div>
       </div>
     </div>
@@ -121,6 +129,8 @@
   <div class="status-bar" style="display: none;">
     <div class="time"></div>
   </div>
+
+
 
   <script src='https://code.jquery.com/jquery-latest.min.js'></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
