@@ -84,7 +84,7 @@
   }
   
   .content-chibbi{
-    margin: 15px;
+    margin: 0px;
   }
   
   .header-chibbi{
@@ -144,10 +144,20 @@
   }
   
   .card-chibbi {
-    display: flex;
+    /* display: flex;
     padding: 18px;
     background: #fff;
     margin-top: 15px;
+    border-radius: 5px;
+    border-top: 2px solid #fe5008;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s;
+    transform: scale(1); */
+    display: flex;
+    padding: 15px;
+    background: #fff;
+    margin: 15px;
     border-radius: 5px;
     border-top: 2px solid #fe5008;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
@@ -168,7 +178,7 @@
   
   .icon-one img {
     width: 100%;
-    padding-top: 15px;
+    padding-top: 10px;
   }
   
   .cont h5{
