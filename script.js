@@ -56,6 +56,7 @@ $("#returnMenu").click(function(e) {
   $("#firstMessage").show();
   $("#returnMenu").hide();
   $("#sectionChibbiChat").hide();
+  $('#sectionZoomM').hide();
 });
 
 $("#whatsapp").click(function(e) {
@@ -77,7 +78,28 @@ $("#chatChibbi").click(function(e) {
   $("#sectionList").hide();
   $("#firstMessage").hide();
   $("#returnMenu").show();
+})
 
+$("#zoomChibbi").click(function(e) {
+  $("#sectionZoomM").show();
+  $("#sectionList").hide();
+  $("#firstMessage").hide();
+  $("#returnMenu").show();
+})
+
+
+
+$("#lpMail").click(function(e) {
+  window.location.href = "mailto:mailto:soportedocente-lp@unifranz.edu.bo";
+})
+$("#eaMail").click(function(e) {
+  window.location.href = "mailto:mailto:soportedocente-ea@unifranz.edu.bo";
+})
+$("#cbMail").click(function(e) {
+  window.location.href = "mailto:mailto:soportedocente-cb@unifranz.edu.bo";
+})
+$("#scMail").click(function(e) {
+  window.location.href = "mailto:mailto:soportedocente-sc@unifranz.edu.bo";
 })
 
 var msg = [
