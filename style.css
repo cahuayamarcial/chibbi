@@ -84,7 +84,7 @@
   }
   
   .content-chibbi{
-    margin: 0px;
+    margin: 15px;
   }
   
   .header-chibbi{
@@ -144,7 +144,8 @@
   }
   
   .card-chibbi {
-    padding: 10px 15px;
+    display: flex;
+    padding: 18px;
     background: #fff;
     margin-top: 15px;
     border-radius: 5px;
@@ -153,7 +154,6 @@
     cursor: pointer;
     transition: all 0.3s;
     transform: scale(1);
-    margin: 14px;
   }
   
   .card-chibbi:hover{
