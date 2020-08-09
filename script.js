@@ -21,7 +21,7 @@ $(".conversation-container").on("click", "div", function(){
   }else if($(this).text() == 'El Alto'){
     sendWhatsApp(59176574941, msgUser)
   }else if($(this).text() == 'Cochabamba'){
-    sendWhatsApp(59176575918, msgUser)
+    sendWhatsApp(59174160012, msgUser)
   }else{
     sendWhatsApp(59176214071, msgUser)
   }
