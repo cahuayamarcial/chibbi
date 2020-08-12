@@ -324,6 +324,7 @@
   outline: none;
   min-width: 50px;
   border-radius: 0px;
+  cursor: no-drop;
 }
 
 .conversation-compose div, .conversation-compose input {
@@ -673,7 +674,7 @@ span.fas.fa-robot {
 	align-self: end;
 }
 
-input#username {
+/* input#username {
 	font-size: 1.1rem;
 	line-height: 2.5rem;
 	text-align: center;
@@ -681,7 +682,7 @@ input#username {
 	border: solid 1px #00000087;
 	margin: 15px 0;
 	width: 100%;
-}
+} */
 
 form#form-start {
 	align-self: end;
@@ -726,7 +727,6 @@ form#form-start {
 	overflow-x: hidden;
   overflow-y: scroll;
   height: 100%;
-  margin-bottom: 5px;
 }
 
 .post {

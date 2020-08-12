@@ -14,14 +14,15 @@ $(function () {
 
 $(".conversation-container").on("click", "div", function(){
   // alert($(this).text());
+  // let msgUser = $('.mgsChibi').text();
+  let msgUser = 'Hola, necesito ayuda.'
 
-  let msgUser = $('.mgsChibi').text();
   if($(this).text() == 'La Paz'){
     sendWhatsApp(59176569975, msgUser)
   }else if($(this).text() == 'El Alto'){
     sendWhatsApp(59176574941, msgUser)
   }else if($(this).text() == 'Cochabamba'){
-    sendWhatsApp(59176575918, msgUser)
+    sendWhatsApp(59174160012, msgUser)
   }else{
     sendWhatsApp(59176214071, msgUser)
   }
@@ -103,7 +104,7 @@ $("#scMail").click(function(e) {
 })
 
 var msg = [
-'Hola, ¿cómo te puedo ayudar?',
+'Hola! por favor, haz clic en la sede que <br>pertence: 👇',
 // 'Hola, ¿Cómo te puedo ayudar?',
 ];
 
@@ -126,42 +127,16 @@ for (var i = 0; i < messageTime.length; i++) {
 messageTime[i].innerHTML = moment().format('h:mm A');
 }
 
-/* Message */
 
-var form = document.querySelector('.conversation-compose');
-var conversation = document.querySelector('.conversation-container');
 
-form.addEventListener('submit', newMessage);
+$(".optionOne").click(function(e) {
+  newMessageOption()
+})
 
-function newMessage(e) {
-e.preventDefault();
-
-var input = e.target.input;
-
-if (input.value) {
-	const message = buildMessage(input.value);
-	conversation.appendChild(message);
-  animateMessage(message);
-
-  var resp = buildMessageReceived(input.value);
-  conversation.appendChild(resp);
-  
-  var branch = buildMessageReceivedBranch('La Paz', 'clp');
-  conversation.appendChild(branch);
-  
-  var branch = buildMessageReceivedBranch('El Alto', 'cea');
-  conversation.appendChild(branch);
-  var branch = buildMessageReceivedBranch('Cochabamba', 'ccbba');
-  conversation.appendChild(branch);
-  var branch = buildMessageReceivedBranch('Santa Cruz', 'ccz');
-	conversation.appendChild(branch);
+function newMessageOption() {
   
 }
 
-input.value = '';
-conversation.scrollTop = conversation.scrollHeight;
-
-}
 
 function buildMessage(text) {
 var element = document.createElement('div');
@@ -213,39 +188,6 @@ setTimeout(function() {
   tick.classList.remove('tick-animation');
 }, 500);
 }
-
-
-// $('#clp').click(function(){
-//   alert("Hola mudno");
-// });
-// $('#clp').live('click', function(){
-//   alert("asdsaasd");
-// });
-
-// var app = new Vue({
-//     el: '#chibbi',
-//     name: 'App',
-//     data() {
-//       return {
-//         // open: false
-//       }
-//     },
-//     // computed: {
-//     //   playerWidth() {
-//     //     return {
-//     //       width: `calc(var(--card-width) / ${this.players}`
-//     //     }
-//     //   }
-//     // },
-//     mounted() {
-//     },
-//     methods: {
-//     }
-// })
-
-
-
-
 
 
 
@@ -326,7 +268,14 @@ $(document).ready(() => {
     // Respuestas
     let intro = ["Hola!", "Hola 😊"];
     let love = ["Gracias! 😍", "Gracias, también te quiero", "Qué ternura", "😍"];
-  
+    let marcial = ["😄", "😌", "😍"];
+    let qmarcial = ["Sin comentarios...", "Podemos cambiar de tema?", "Te puedo ayudar en algo mas?"];
+    let maluser = ["No te preocupes, todos los problemas tienden a solucionarse.", 
+                  "Entiendo, te mando un abrazo virtual, estoy aquí para ayudarte.", 
+                  "Tranqi, todos tus problemas se solucionarán pronto. <img style='width: 100%;margin-top: 10px;' src='https://i.pinimg.com/236x/16/b2/28/16b2280219eb910ffd5aea534e0bd5d4.jpg'></img>",
+                  "Te contaré un chiste: Toc,toc -¿Quién es? -Soy yo. -Abrió la puerta, y efectivamente era él."];
+    let odio = ["Lo siento mucho por no poder ayudarte.",
+                "Ok <img style='width: 100%;margin-top: 10px;' src='https://i.pinimg.com/474x/74/e3/13/74e3138a1b6ee1b6d9306ab0349b8f4a.jpg'></img>"];
   
     // Generate some different replies
     if (/^hola$|^hola?a|^ola|^hey|^oli|^holas/.test(message)) reply = intro[Math.floor(Math.random() * intro.length)];
@@ -340,6 +289,10 @@ $(document).ready(() => {
     else if (/bye|ciao|adieu|salu/.test(message)) reply = defaultMessage[Math.floor(Math.random() * intro.length)];
     else if (/te amo|te quiero/.test(message)) reply = love[Math.floor(Math.random() * intro.length)];
     else if (/oki|ok|oky|okay/.test(message)) reply = "Bueno, te puedo ayudar en algo más? 😃";
+    else if (/quien es marcial|quien es marz/.test(message)) reply = qmarcial[Math.floor(Math.random() * intro.length)];
+    else if (/marcial|maarcial/.test(message)) reply = marcial[Math.floor(Math.random() * intro.length)];
+    else if (/estoy triste|triste|estoy mal|me siento mal/.test(message)) reply = maluser[Math.floor(Math.random() * intro.length)];
+    else if (/no sirves|sonsa|te odio|imbecil/.test(message)) reply = odio[Math.floor(Math.random() * intro.length)];
     else reply = defaultMessage[Math.floor(Math.random() * intro.length)];
   
     return reply;

@@ -56,12 +56,16 @@
       <div class="content-chibbi conversation" id="sectionWhatsapp" style="display: none;">
         <div class="conversation-container">
           <div class="message-chibbi received"> <span id="random"></span> <span class="metadata"><span class="time"></span></span> </div>
+          <div class="message-chibbi-select optionOne" id="optionOne">La Paz</div>
+          <div class="message-chibbi-select optionOne" id="optionTwo">El Alto</div>
+          <div class="message-chibbi-select optionOne" id="optionTwo">Cochabamba</div>
+          <div class="message-chibbi-select optionOne" id="optionTwo">Santa Cruz</div>
         </div>
         <form class="conversation-compose">
           <div class="emoji"> </div>
-          <input class="input-msg" name="input" placeholder="Escriba un mensaje aquí" autocomplete="off"> 
+          <input class="input-msg" name="input" placeholder="Seleccione una opción" autocomplete="off" disabled> 
           <div class="photo"> </div>
-          <button class="send">
+          <button class="send" disabled>
             <div class="circle"> <i class="zmdi zmdi-mail-send"></i> </div>
           </button>
         </form>
@@ -69,9 +73,9 @@
       <div class="content-chibbi chat-chibbi" id="sectionChibbiChat" style="display: none; height: 394px;padding: 0; margin: 0;">
         <div id="app">
           <div id="message-board">
-            <div class="post post-bot">Hola, selecciona una opción para poder ayudarte.</div>
-            <div class="chibi_option">Soy estudiante</div>
-            <div class="chibi_option">Soy docente</div>
+            <div class="post post-bot">Hola, pronto estaré disponible para ayudarte.</div>
+            <!-- <div class="chibi_option">Soy estudiante</div>
+            <div class="chibi_option">Soy docente</div> -->
           </div>
           <div id="form" class="bg-light" style="background-color: #eaeaea!important;">
             <div id="message" placeholder="Type your message here" rows="1" contenteditable></div>
