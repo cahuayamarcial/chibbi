@@ -827,7 +827,7 @@ form#form-start {
 /* Custom Scrollbar */
 
 ::-webkit-scrollbar {
-	width: 5px;
+	width: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -841,7 +841,7 @@ form#form-start {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: #b30000;
+	background: #fd560d;
 }
 
 /***************/
