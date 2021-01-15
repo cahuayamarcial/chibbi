@@ -15,7 +15,7 @@ $(function () {
 $(".conversation-container").on("click", "div", function(){
   // alert($(this).text());
   // let msgUser = $('.mgsChibi').text();
-  let msgUser = 'Hola, necesito ayuda.'
+  let msgUser = 'UNIFRANZ'
 
   //if($(this).text() == 'La Paz'){
     sendWhatsApp(59171502211, msgUser)
