@@ -60,12 +60,6 @@ $("#returnMenu").click(function(e) {
   $('#sectionZoomM').hide();
 });
 
-$("#whatsapp").click(function(e) {
-  $("#sectionWhatsapp").show();
-  $("#sectionList").hide();
-  $("#firstMessage").hide();
-  $("#returnMenu").show();
-});
 
 $("#faqChibbi").click(function(e) {
   $("#sectionFaq").show();
