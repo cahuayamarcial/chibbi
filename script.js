@@ -17,15 +17,15 @@ $(".conversation-container").on("click", "div", function(){
   // let msgUser = $('.mgsChibi').text();
   let msgUser = 'Hola, necesito ayuda.'
 
-  if($(this).text() == 'La Paz'){
-    sendWhatsApp(59176569975, msgUser)
-  }else if($(this).text() == 'El Alto'){
-    sendWhatsApp(59176574941, msgUser)
-  }else if($(this).text() == 'Cochabamba'){
-    sendWhatsApp(59176575918, msgUser)
-  }else{
-    sendWhatsApp(59176214071, msgUser)
-  }
+  //if($(this).text() == 'La Paz'){
+    sendWhatsApp(59171502211, msgUser)
+  //}else if($(this).text() == 'El Alto'){
+  //  sendWhatsApp(59176574941, msgUser)
+ // }else if($(this).text() == 'Cochabamba'){
+ //   sendWhatsApp(59176575918, msgUser)
+ // }else{
+  //  sendWhatsApp(59176214071, msgUser)
+  //}
 });
 
 
